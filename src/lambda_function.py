@@ -36,7 +36,9 @@ def resolve_alb_dns(dns_name):
         raise Exception(f"Failed to resolve ALB DNS {dns_name}") 
 
 # done
-
+from datetime import datetime
+now = datetime.now()
+print(now.strftime("%Y-%m-%d %H:%M:%S"))  # Output: Current date and time
 
 
 
