@@ -56,3 +56,4 @@ jobs:
       run: |
         aws lambda update-function-code --function-name LambdaCICD --zip-file fileb://function.zip
         aws lambda update-function-configuration --function-name LambdaCICD --layers $LAYER_ARN
+
